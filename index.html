@@ -2,38 +2,70 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Quiz Time!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Time! by Halip</title>
+    <!-- style css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- head icon -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/quiz-game.png"
+      type="image/x-icon"
+    />
   </head>
   <body>
     <div class="quiz-container" id="quiz">
+      <div class="title">
+        <h1>
+          A simple quiz website by <br />
+          <a
+            href="https://halip26.github.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Mr Halip</a
+          >
+        </h1>
+      </div>
       <div class="quiz-header">
         <h2 id="question">Question text</h2>
         <ul>
           <li>
             <input type="radio" name="answer" id="a" class="answer" />
-            <label for="a" id="a_text">Question</label>
+            <label for="a"
+              >A.
+              <label for="a" id="a_text">answer option 1</label>
+            </label>
           </li>
 
           <li>
             <input type="radio" name="answer" id="b" class="answer" />
-            <label for="b" id="b_text">Question</label>
+            <label for="b"
+              >B.
+              <label for="b" id="b_text">answer option 2</label>
+            </label>
           </li>
 
           <li>
             <input type="radio" name="answer" id="c" class="answer" />
-            <label for="c" id="c_text">Question</label>
+            <label for="c"
+              >C.
+              <label for="c" id="c_text">answer option 3</label>
+            </label>
           </li>
 
           <li>
             <input type="radio" name="answer" id="d" class="answer" />
-            <label for="d" id="d_text">Question</label>
+            <label for="d" for=""
+              >D.
+              <label for="d" id="d_text">answer option 4</label>
+            </label>
           </li>
         </ul>
       </div>
       <button id="submit">Submit</button>
     </div>
-    <script src="script.js"></script>
+
+    <!-- script js -->
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
