@@ -114,6 +114,11 @@ button:focus {
     font-size: 17px;
   }
 
+  h2 {
+    padding: 12px;
+    font-size: 17px;
+  }
+
   ul {
     margin-left: 10px;
   }
