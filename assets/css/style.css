@@ -53,6 +53,10 @@ body {
   box-shadow: 5px 5px #3d3d3d65;
 }
 
+.quiz-header ul {
+  margin: 40px 0 -20px 0;
+}
+
 h2 {
   text-align: center;
 }
@@ -70,6 +74,11 @@ ul li {
 ul li input,
 label {
   cursor: pointer;
+}
+
+[type="radio"] {
+  height: 10px;
+  width: 10px;
 }
 
 button {
@@ -113,6 +122,10 @@ button:focus {
   h2 {
     padding: 12px;
     font-size: 17px;
+  }
+
+  .quiz-header ul {
+    margin: 40px 0 10px 0;
   }
 
   ul {
